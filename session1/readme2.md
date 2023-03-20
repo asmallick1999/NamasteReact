@@ -1,4 +1,3 @@
-image.png
 
 JavaScript Engine -> Just in Time compilation (https://en.wikipedia.org/wiki/JavaScript_engine)
 
