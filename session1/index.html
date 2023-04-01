@@ -9,23 +9,37 @@
 </head>
 
 <body>
-    <div id="root"></div>
+    <div id="root">
+        <h1>Hi my name is headind</h1>
+        <h2>hiiii my name is heading 2 is there any work for me </h2>
+        <p>hehe sorry for the late</p>
+        <h3 id="heading3">I am P tag</h3>
+        <button onclick="clickme()">click me</button>
+    </div>
 
+
+
+
+    <!-- <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+<script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script> -->
+    <script>
+        function clickme(){
+            const heading3 = document.getElementById("heading3");
+            heading3.innerHTML="nooooooooo I am p tag"
+        }
+
+
+    // const heading1 = React.createElement("h1", {}, "heading 1 I will do it")
+    // const heading2 = React.createElement("h2", {}, "Hello hiii lulu");
+
+    // const container = React.createElement("div", {
+    //     id: "container"
+    // }, [heading1, heading2])
+
+    // const root = ReactDOM.createRoot(document.getElementById("root"));
+    // root.render(container);
+    </script>
 </body>
-<script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
-<script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
-<script>
 
-
-    const heading1 = React.createElement("h1", {}, "heading 1 I will do it")
-    const heading2 = React.createElement("h2", {}, "Hello hiii lulu");
-
-    const container = React.createElement("div", {
-        id: "container"
-    }, [heading1, heading2])
-
-    const root = ReactDOM.createRoot(document.getElementById("root"));
-    root.render(container);
-</script>
 
 </html>

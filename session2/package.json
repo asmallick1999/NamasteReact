@@ -1,0 +1,22 @@
+{
+  "name": "igniteapp",
+  "version": "1.0.0",
+  "description": "Namaste React Practice",
+  "main": "App.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/asmallick1999/NamasteReact.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/asmallick1999/NamasteReact/issues"
+  },
+  "homepage": "https://github.com/asmallick1999/NamasteReact#readme",
+  "devDependencies": {
+    "parcel": "^2.8.3"
+  }
+}
